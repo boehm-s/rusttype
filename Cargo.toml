@@ -19,7 +19,8 @@ readme = "README.md"
 license = "MIT / Apache-2.0"
 keywords = ["font", "truetype", "opentype", "ttf", "otf"]
 exclude = ["/fonts/**"]
-
+#![feature(sort_unstable)]
+ 
 [dependencies]
 arrayvec = "0.4"
 stb_truetype = "0.2"

@@ -82,6 +82,7 @@
 //! * A glyph is a particular font's shape to draw the character for a particular Unicode code point. This will
 //!   have its own identifying number unique to the font, its ID.
 
+#![feature(sort_unstable)]
 #![cfg_attr(feature = "bench", feature(test))]
 #[cfg(feature = "bench")]
 extern crate test;

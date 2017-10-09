@@ -19,8 +19,7 @@ readme = "README.md"
 license = "MIT / Apache-2.0"
 keywords = ["font", "truetype", "opentype", "ttf", "otf"]
 exclude = ["/fonts/**"]
-#![feature(sort_unstable)]
- 
+
 [dependencies]
 arrayvec = "0.4"
 stb_truetype = "0.2"
@@ -34,4 +33,3 @@ unicode-normalization = "0.1"
 [features]
 # Compiles benchmark code, to be avoided normally as this currently requires nightly rust
 bench = []
-sort_unstable = []

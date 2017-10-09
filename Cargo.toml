@@ -33,3 +33,4 @@ unicode-normalization = "0.1"
 [features]
 # Compiles benchmark code, to be avoided normally as this currently requires nightly rust
 bench = []
+sort_unstable = []

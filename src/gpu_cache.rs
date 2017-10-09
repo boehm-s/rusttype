@@ -300,7 +300,6 @@ impl Cache {
         let mut in_use_rows = HashSet::new();
         // tallest first gives better packing
         // can use 'sort_unstable' as order of equal elements is unimportant
-        #![feature(sort_unstable)]
         self.queue.sort_unstable_by_key(|&(_, ref glyph)| {
             -glyph.pixel_bounding_box().unwrap().height()
         });
